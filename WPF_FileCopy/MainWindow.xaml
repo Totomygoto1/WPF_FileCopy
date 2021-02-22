@@ -19,7 +19,7 @@
         <Label Content="Choose a source path:" HorizontalAlignment="Left" Margin="76,27,0,0" VerticalAlignment="Top" AutomationProperties.Name="lblSource" RenderTransformOrigin="-0.569,0.693"/>
         <Label x:Name="lblDestination" Content="Choose a destination path:" HorizontalAlignment="Left" Margin="323,27,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.885,0.508" Grid.ColumnSpan="2"/>
         <Button x:Name="btnCopyFiles" Click="btnCopyFiles_Click" Content="Copy Files" HorizontalAlignment="Left" Margin="76,130,0,0" VerticalAlignment="Top" Width="75"/>
-        <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="323,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.158,0.647"/>
+        <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="199,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.158,0.647" Grid.ColumnSpan="2" Width="509"/>
         <Label x:Name="lblFileList" Content="File Copy Information" HorizontalAlignment="Left" Margin="79,185,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="lsbFileInfo" HorizontalAlignment="Left" Height="160" Margin="79,216,0,0" VerticalAlignment="Top" Width="559" Grid.ColumnSpan="2"/>
 
